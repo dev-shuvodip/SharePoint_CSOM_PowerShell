@@ -5,10 +5,10 @@ Add-Type -Path "C:\Program Files\Common Files\microsoft shared\Web Server Extens
 Add-Type -Path "C:\Program Files\Common Files\microsoft shared\Web Server Extensions\16\ISAPI\Microsoft.SharePoint.Client.Runtime.dll"
 
 #SharePoint Online Site URL
-$siteURL = "https://pphackathonteam5.sharepoint.com/sites/Shuvodip"
+$siteURL = ""
 
 #SharePoint Online Username
-$userId = "shuvodip@pphackathonteam5.onmicrosoft.com"
+$userId = ""
 
 #SharePoint Online Password
 $pswd = Read-Host -Prompt "Enter password" -AsSecureString  
