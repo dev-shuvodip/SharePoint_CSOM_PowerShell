@@ -11,10 +11,10 @@ $siteURL = "https://pphackathonteam5.sharepoint.com/sites/Shuvodip"
 $userId = "shuvodip@pphackathonteam5.onmicrosoft.com"
 
 #SharePoint Online Password
-$pwd = Read-Host -Prompt "Enter password" -AsSecureString  
+$pswd = Read-Host -Prompt "Enter password" -AsSecureString  
 
 #Authentication
-$creds = New-Object Microsoft.SharePoint.Client.SharePointOnlineCredentials($userId, $pwd)  
+$creds = New-Object Microsoft.SharePoint.Client.SharePointOnlineCredentials($userId, $pswd)  
 
 #SharePoint Online Site Client Context
 $ctx = New-Object Microsoft.SharePoint.Client.ClientContext($siteURL)
